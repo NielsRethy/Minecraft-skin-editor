@@ -1,0 +1,165 @@
+﻿<UserControl x:Class="Minecraft_skin_editor.Views.SkinEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Minecraft_skin_editor.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:viewModels="clr-namespace:Minecraft_skin_editor.ViewModels"
+              xmlns:DirectxImageControl="clr-namespace:DirectxImageControl;assembly=DirectxImageControl"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="670" d:DesignWidth="1200">
+
+
+    <Grid>
+        <Grid.DataContext>
+            <viewModels:ViewModel/>
+        </Grid.DataContext>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.2*"/>
+            <RowDefinition Height="4.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="0.55*"/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="0.4*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.4*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" Stretch="Fill" Source="/Resources/Tex/gewoneAchtergrond.png" Grid.ColumnSpan="5" Grid.RowSpan="6" Margin="0,0,-0.308,0.25"/>
+        <Rectangle x:Name="size"  Grid.Column="1" Fill="Black" Grid.Row="1" Stroke="White" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="20,9,20,0" SizeChanged="Rectangle_SizeChanged"/>
+        <Image x:Name="SkinBack" Grid.Column="1" RenderOptions.BitmapScalingMode="NearestNeighbor" Margin="20,20,20,0" Source="/Resources/Tex/Steve.png" Stretch="Fill"  Grid.RowSpan="2" Grid.Row="1" Grid.ColumnSpan="3"/>
+        <xctk:ColorCanvas  Visibility="{Binding SetColorPicker , Converter={StaticResource BoolVisConv}}" IsEnabled="{Binding SetColorPicker}" SelectedColor="{Binding BrushColorPick}" Margin="0,0,0,10" Grid.Column="2" Grid.Row="3" Background="#FF6BAE43" BorderBrush="#FF79553A" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <Grid Grid.Row="3" Grid.Column="4" Grid.RowSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="{Binding BrushColorPick , Converter={StaticResource RGBColConv}}" Grid.Column="1"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="4" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <ListBox ItemsSource="{Binding NamesDownloaded,Mode=TwoWay}" SelectedItem="{Binding SelecteListItem}" Margin="2,10,6,2" Grid.ColumnSpan="4" Background="#FF9D714E" BorderBrush="#FF38261B"/>
+            <TextBox Text="{Binding NameOfSkin , Mode=TwoWay}" Grid.Row="1" Margin="5" Background="#FF533B29" Foreground="#FF3F6427" Grid.ColumnSpan="3" BorderBrush="{x:Null}" SelectionBrush="#FF4C3524" FontSize="24"/>
+            <Button Command ="{Binding LoadNamesCommand}" CommandParameter="{Binding .}" Grid.Row="3" Content="Load" Background="#FF9E724E" Margin="1,0" BorderBrush="{x:Null}" Height="Auto" VerticalAlignment="Center" />
+            <Button Command ="{Binding SaveNamesCommand}" CommandParameter="{Binding .}" Grid.Row="3" Content="Save" Background="#FF9E724E" Margin="1" Grid.Column="2" BorderBrush="{x:Null}" Height="Auto" VerticalAlignment="Center" />
+            <Button Command ="{Binding ApplyTextureToSkin}" CommandParameter="{Binding .}" Grid.Row="3" Content="Apply" Background="#FF9E724E" Margin="1" Grid.Column="1" BorderBrush="{x:Null}" Height="Auto" VerticalAlignment="Center" />
+            <Button Command ="{Binding DeleteSkinFromList}" CommandParameter="{Binding .}" Grid.Row="2" Content="Delete" Background="#FF9E724E" Margin="1" Grid.Column="2" BorderBrush="{x:Null}" Height="Auto" VerticalAlignment="Center" />
+            <Button Command ="{Binding AddSkinToList}" CommandParameter="{Binding .}" Content="Add" Background="#FF9E724E" Margin="1" BorderBrush="{x:Null}" Height="Auto" VerticalAlignment="Center" Grid.Row="2" />
+        </Grid>
+        <Grid Margin="5" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <DirectxImageControl:DX10RenderCanvas Viewport="{Binding Viewport}"  x:Name="dX10RenderCanvas" Margin="5" Grid.ColumnSpan="3"/>
+            <Button  Command ="{Binding LeftTurn}" CommandParameter="{Binding .}" x:Name="buttonLeft" Content="Left" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="1" Grid.Row="2"/>
+            <Button  Command ="{Binding AutoTurn}" CommandParameter="{Binding .}" x:Name="buttonAuto" Content="Auto" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="1" Grid.Row="2" Grid.Column="1" FontSize="12"/>
+            <Button  Command ="{Binding RightTurn}" CommandParameter="{Binding .}" x:Name="buttonRight" Content="Right" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="1" Grid.Row="2" Grid.Column="2" FontSize="12"/>
+            <Button  Command ="{Binding Up}" CommandParameter="{Binding .}" x:Name="buttonUp" Content="Up" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="1" Grid.Row="1" Grid.Column="1" FontSize="12"/>
+            <Button  Command ="{Binding Down}" CommandParameter="{Binding .}" x:Name="buttonDown" Content="Down" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="1" Grid.Row="3" Grid.Column="1" FontSize="12"/>
+        </Grid>
+        <Image x:Name="SkinImageLive"  Grid.Column="1"  Source="{Binding ImageSource, Mode=TwoWay}" RenderOptions.BitmapScalingMode="NearestNeighbor" Margin="20,20,20,0" Stretch="Fill"  Grid.RowSpan="2" Grid.Row="1" Grid.ColumnSpan="3" Opacity="1" />
+        <Grid Grid.Column="2" Margin="0" Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+            </Grid.ColumnDefinitions>
+            <Button Command ="{Binding BrushCommand}" CommandParameter="{Binding .}" x:Name="button"  Grid.Column="1" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Button Command ="{Binding PenPixelDownCommand}" CommandParameter="{Binding .}" x:Name="button1"  Grid.Column="3" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Button Command ="{Binding ButtonColorPickerCommand}" CommandParameter="{Binding .}" x:Name="button2" Grid.Column="5" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="5"/>
+            <Button Command ="{Binding RandomColorCommand}" CommandParameter="{Binding .}"  x:Name="button3" Grid.Column="7" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Button Command ="{Binding EmptyCommand}" CommandParameter="{Binding .}" x:Name="button4" Grid.Column="9" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Button Command ="{Binding UndoCommand}" CommandParameter="{Binding .}"  x:Name="button5" Grid.Column="11" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42" Margin="5"/>
+            <Button Command ="{Binding RedoCommand}" CommandParameter="{Binding .}" x:Name="button6" Grid.Column="13" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Button Command ="{Binding SaveSkinCommand}" CommandParameter="{Binding .}"  x:Name="button7" Grid.Column="15" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Button Command ="{Binding LoadSkinCommand}" CommandParameter="{Binding .}"  x:Name="button8" Grid.Column="17" Height="Auto" Background="#FF61A238" BorderBrush="#FF3E3E42"  Margin="5"/>
+            <Image Grid.Column="1" Source="/Resources/Tex/BrushIcon.png" Margin="10" IsHitTestVisible="False"/>
+            <Image Grid.Column="3" Source="/Minecraft skin editor;component/Resources/Tex/pencil.png" Margin="10" IsHitTestVisible="False">
+                <Image.OpacityMask>
+                    <SolidColorBrush Color="Black"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image Grid.Column="5" Margin="10" IsHitTestVisible="False" Source="/Resources/Tex/colorpickerIcon.png"/>
+
+            <Image Grid.Column="7" Margin="10" IsHitTestVisible="False" Source="/Resources/Tex/RandomIcon.png" />
+            <Image Grid.Column="9" Margin="10" IsHitTestVisible="False" Source="/Resources/Tex/NieuwIcon.png" />
+            <Image Grid.Column="11" Source="/Resources/Tex/PijltjeSymbol.png" Margin="10" IsHitTestVisible="False" />
+            <Image Grid.Column="13" Source="/Resources/Tex/PijltjeSymbol.png" Margin="10" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="False" >
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image Grid.Column="15" Source="/Resources/Tex/SaveIcon.png" Margin="10" IsHitTestVisible="False"/>
+            <Image Grid.Column="17" Source="/Resources/Tex/FolderIcon.png" Margin="10" IsHitTestVisible="False"/>
+            
+
+
+        </Grid>
+        <Image Source="/Minecraft skin editor;component/Resources/Tex/MAchtergrondEigen.png" Stretch="Fill" Grid.RowSpan="8" Grid.ColumnSpan="6" HorizontalAlignment="Center" VerticalAlignment="Center" IsHitTestVisible="False" />
+
+        <i:Interaction.Triggers>
+            <i:EventTrigger EventName="MouseDown">
+                <i:InvokeCommandAction Command="{Binding PaintCommand}" CommandParameter="{Binding .}" />
+            </i:EventTrigger>
+            <i:EventTrigger EventName="MouseMove">
+                <i:InvokeCommandAction Command="{Binding PaintMoveCommand}" CommandParameter="{Binding .}" />
+            </i:EventTrigger>
+            <i:EventTrigger EventName="SizeChanged">
+                <i:InvokeCommandAction Command="{Binding PaintCommand}" CommandParameter="{Binding .}" />
+            </i:EventTrigger>
+            <i:EventTrigger EventName="MouseUp">
+                <i:InvokeCommandAction Command="{Binding MouseUpCommand}" CommandParameter="{Binding .}" />
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+
+
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,17 @@
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\DirectxImageControl.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\DirectxImageControl.pdb
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.Direct3D10.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.DXGI.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.Mathematics.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.Direct3D10.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.DXGI.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\bin\Debug\SharpDX.Mathematics.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\obj\Debug\DirectxImageControl.csprojResolveAssemblyReference.cache
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\obj\Debug\DirectxImageControl.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\DirectxImageControl\obj\Debug\DirectxImageControl.pdb

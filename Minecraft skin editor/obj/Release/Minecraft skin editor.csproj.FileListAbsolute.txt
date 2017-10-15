@@ -1,0 +1,83 @@
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Minecraft skin editor.exe.config
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Model\Test.obj
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Model\MinecraftModel.obj
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Save\PlayerSave.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\pencil.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Shaders\PosColNorm3D.fx
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Shaders\PosNormTex3D.fx
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\gewoneAchtergrond2.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\gewoneAchtergrond.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\colorpickerIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\PijltjeSymbol.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\GomIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\NieuwIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\RandomIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\BrushIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\FolderIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\MAchtergrondEigen.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\SkinTemplate.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\SaveIcon.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Resources\Tex\Steve.png
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Minecraft skin editor.exe
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Minecraft skin editor.pdb
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\AssimpNet.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\DirectxImageControl.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\MaterialDesignColors.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\PixelMap.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.D3DCompiler.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Direct2D1.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Direct3D10.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.DXGI.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Mathematics.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\System.Windows.Interactivity.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\DirectxImageControl.pdb
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\AssimpNet.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\MaterialDesignColors.pdb
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\PixelMap.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.D3DCompiler.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Direct2D1.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Direct3D10.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Direct3D9.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.DXGI.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\SharpDX.Mathematics.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\System.Windows.Interactivity.xml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor.csprojResolveAssemblyReference.cache
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\MainWindow.g.cs
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Views\SkinEditor.g.cs
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\App.g.cs
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor_Content.g.cs
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor_MarkupCompile.cache
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor_MarkupCompile.lref
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\App.baml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\MainWindow.baml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Views\SkinEditor.baml
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor.g.resources
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft_skin_editor.Properties.Resources.resources
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor.csproj.GenerateResource.Cache
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor.exe
+C:\Users\NielsR\Desktop\Rethy_Niels_3DAE4_Project\Source\Examen_Minecraft_Skin_Viewer\Minecraft skin editor\obj\Release\Minecraft skin editor.pdb
